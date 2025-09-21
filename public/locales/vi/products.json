@@ -1,0 +1,13 @@
+{
+  "title": "Sản phẩm",
+  "subtitle": "Xem các gói bán chạy",
+  "items": [
+    { "name": "Gói Khởi đầu", "price": "$9" },
+    { "name": "Gói Nhóm", "price": "$29" },
+    { "name": "Gói Pro", "price": "$99" }
+  ],
+  "items_count_one": "1 mặt hàng",
+  "items_count_other": "{{count}} mặt hàng",
+  "hello_name": "Xin chào, {{name}}!",
+  "length_long": "Đây là một đoạn văn bản cố ý dài để vượt quá chiều rộng của một khung hẹp, giúp chúng tôi kiểm tra rủi ro tràn dòng và cắt bớt khi giả lập ngôn ngữ."
+}

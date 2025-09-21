@@ -1,0 +1,13 @@
+{
+  "title": "Produits",
+  "subtitle": "Parcourez nos meilleures ventes",
+  "items": [
+    { "name": "Offre Débutant", "price": "$9" },
+    { "name": "Offre Équipe", "price": "$29" },
+    { "name": "Offre Pro", "price": "$99" }
+  ],
+  "items_count_one": "1 article",
+  "items_count_other": "{{count}} articles",
+  "hello_name": "Bonjour !",
+  "length_long": "Ceci est un texte volontairement long conçu pour dépasser la largeur d'un conteneur étroit, afin d'aider à valider les vérifications de troncature et de dépassement de mise en page pendant la pseudo‑localisation."
+}

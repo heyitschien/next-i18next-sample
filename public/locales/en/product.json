@@ -1,0 +1,6 @@
+{
+  "title": "Product #{{id}}",
+  "description": "This page demonstrates a dynamic route with localized content.",
+  "price_label": "Price:",
+  "price_value": "{{price}}"
+}

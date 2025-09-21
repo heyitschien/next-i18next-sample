@@ -1,0 +1,9 @@
+{
+  "title": "Checkout",
+  "subtitle": "Review your order and complete the purchase",
+  "placeholders": {
+    "name": "Full name",
+    "email": "Email address"
+  },
+  "pay": "Pay now"
+}

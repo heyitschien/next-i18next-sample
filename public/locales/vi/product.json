@@ -1,0 +1,6 @@
+{
+  "title": "Sản phẩm #{{id}}",
+  "description": "Trang này minh họa tuyến động với nội dung đa ngôn ngữ.",
+  "price_label": "Giá:",
+  "price_value": "{{price}}"
+}

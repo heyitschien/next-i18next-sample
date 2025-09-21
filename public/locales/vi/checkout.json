@@ -1,0 +1,9 @@
+{
+  "title": "Thanh toán",
+  "subtitle": "Kiểm tra đơn hàng và hoàn tất mua hàng",
+  "placeholders": {
+    "name": "Họ tên",
+    "email": "Địa chỉ email"
+  },
+  "pay": "Thanh toán"
+}

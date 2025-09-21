@@ -1,0 +1,9 @@
+{
+  "title": "Paiement",
+  "subtitle": "Vérifiez votre commande et finalisez l'achat",
+  "placeholders": {
+    "name": "Nom complet",
+    "email": "Adresse e-mail"
+  },
+  "pay": "Payer maintenant"
+}

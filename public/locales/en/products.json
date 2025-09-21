@@ -1,0 +1,13 @@
+{
+  "title": "Products",
+  "subtitle": "Browse our best sellers",
+  "items": [
+    { "name": "Starter Plan", "price": "$9" },
+    { "name": "Team Plan", "price": "$29" },
+    { "name": "Pro Plan", "price": "$99" }
+  ],
+  "items_count_one": "1 item",
+  "items_count_other": "{{count}} items",
+  "hello_name": "Hello, {{name}}!",
+  "length_long": "This is an intentionally long piece of text designed to exceed the width of a narrow container, helping us validate truncation and layout overflow checks during pseudo-localization."
+}

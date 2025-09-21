@@ -1,0 +1,26 @@
+version: 1
+framework: next-i18next
+localization:
+  roots:
+    - public/locales/**
+  defaultLocale: en
+  locales: [en, fr, vi]
+  namespaces: [common, home, products, checkout, product]
+routes:
+  include: ["/", "/products", "/checkout", "/product/[id]"]
+  samples:
+    "/product/[id]": { id: "123" }
+screenshots:
+  viewports:
+    - { width: 1280, height: 800 }
+  waitUntil: networkidle0
+policy:
+  minLQScore: 80
+  strictGlossary: true
+  requireICU: true
+integrations:
+  tms: { provider: "lokalise", connection: "lokalise-prod" }
+  slack: { channel: "#lingopilot-ci" }
+pr:
+  requiredCheck: true
+  labels: ["i18n", "lingopilot"]
