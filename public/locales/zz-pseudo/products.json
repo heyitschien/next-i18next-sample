@@ -1,0 +1,22 @@
+{
+  "title": "［Pródúçts］　　　　",
+  "subtitle": "［Brówsé óúr bést séllérs］　　　　　　　　　　",
+  "items": [
+    {
+      "name": "［Stårtér Plåñ］　　　　　",
+      "price": "［$9］　"
+    },
+    {
+      "name": "［Téåm Plåñ］　　　　",
+      "price": "［$29］　　"
+    },
+    {
+      "name": "［Pró Plåñ］　　　　",
+      "price": "［$99］　　"
+    }
+  ],
+  "items_count_one": "［1 ítém］　　　",
+  "items_count_other": "［{{count}} ítéms］　　　",
+  "hello_name": "［Hélló, {{name}}!］　　　　",
+  "length_long": "［Thís ís åñ íñtéñtíóñållý lóñg píéçé óf téxt désígñéd tó éxçééd thé wídth óf å ñårrów çóñtåíñér, hélpíñg ús vålídåté trúñçåtíóñ åñd låýóút óvérflów çhéçks dúríñg pséúdó-lóçålízåtíóñ.］　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+}
