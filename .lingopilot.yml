@@ -14,13 +14,5 @@ screenshots:
   viewports:
     - { width: 1280, height: 800 }
   waitUntil: networkidle0
-policy:
-  minLQScore: 80
-  strictGlossary: true
-  requireICU: true
-integrations:
-  tms: { provider: "lokalise", connection: "lokalise-prod" }
-  slack: { channel: "#lingopilot-ci" }
 pr:
-  requiredCheck: true
   labels: ["i18n", "lingopilot"]

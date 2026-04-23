@@ -5,7 +5,8 @@ import nextI18NextConfig from '../next-i18next.config.cjs';
 
 function Nav() {
   const router = useRouter();
-  const { locale, locales = ['en', 'fr', 'vi'], asPath } = router;
+  const { locale, locales: allLocales = ['en', 'fr', 'vi'], asPath } = router;
+  const locales = allLocales.filter(l => l !== 'zz-pseudo');
 
   return (
     <header style={{padding: '12px 16px', borderBottom: '1px solid #eee', display: 'flex', gap: 16, alignItems: 'center', justifyContent: 'space-between'}}>
