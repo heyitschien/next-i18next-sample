@@ -6,6 +6,14 @@ localization:
   defaultLocale: en
   locales: [en, fr, vi]
   namespaces: [common, home, products, checkout, product]
+
+# i18n section read by LingoPilot worker internal runner (M4)
+i18n:
+  locales_dir: public/locales
+  namespaces: [common, home, products, checkout, product]
+  source_locale: en
+  pseudo_locale: zz-pseudo
+
 routes:
   include: ["/", "/products", "/checkout", "/product/[id]"]
   samples:
