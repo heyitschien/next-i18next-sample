@@ -1,6 +1,6 @@
 {
   "title": "Checkout",
-  "subtitle": "Review your order and complete the purchase",
+  "subtitle": "Review your order and complete the order",
   "placeholders": {
     "name": "Full name",
     "email": "Email address"
