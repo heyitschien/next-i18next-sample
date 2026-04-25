@@ -1,4 +1,4 @@
 {
   "title": "Welcome to LingoPilot Dashboard",
-  "subtitle": "Change English in this repo \u2014 LingoPilot runs pseudo-strings and screenshots in each PR."
+  "subtitle": "Edit English source strings here \u2014 LingoPilot auto-generates pseudo-translations and visual diffs in every PR."
 }
