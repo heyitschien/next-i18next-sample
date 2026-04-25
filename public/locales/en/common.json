@@ -1,4 +1,8 @@
 {
   "cta_explore": "Open the LingoPilot sample app",
-  "switch_locale": "Switch language"
+  "switch_locale": "Language",
+  "nav_home": "Home",
+  "nav_products": "Products",
+  "nav_checkout": "Checkout",
+  "nav_aria": "Site navigation"
 }
