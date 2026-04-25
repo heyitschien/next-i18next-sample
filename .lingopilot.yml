@@ -4,7 +4,8 @@ localization:
   roots:
     - public/locales/**
   defaultLocale: en
-  locales: [en, fr, vi]
+  # Include zz-pseudo so tooling matches Next + worker path-based pseudo screenshots
+  locales: [en, fr, vi, zz-pseudo]
   namespaces: [common, home, products, checkout, product]
 
 # i18n section read by LingoPilot worker internal runner (M4)
