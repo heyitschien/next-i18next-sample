@@ -21,7 +21,7 @@ A minimal **Next.js (Pages Router) + [next-i18next](https://github.com/i18next/n
 
 ## LingoPilot Integration
 
-This repo has the **LingoPilot GitHub App** installed. The automation runs as follows:
+This repo has the **LingoPilot GitHub App** installed on **`heyitschien`** (canonical owner). The automation runs as follows:
 
 ```
 1. You edit any file under public/locales/en/
@@ -31,6 +31,10 @@ This repo has the **LingoPilot GitHub App** installed. The automation runs as fo
 5. Worker opens a PR: updates public/locales/zz-pseudo/ + commits screenshots
 6. Dashboard at lingopilot.app shows the run with screenshot gallery
 ```
+
+### GitHub account (important)
+
+Use **`heyitschien`** only for pushes, PRs, and the LingoPilot App install. If the App was also installed on another GitHub user (for example an alternate account), remove it there: **GitHub → Settings → Applications → Authorized GitHub Apps → LingoPilot → Configure → Uninstall** from that account, then install again from **heyitschien** and grant access to **`heyitschien/next-i18next-sample`** only.
 
 The `screenshots/` folder in this repo contains images committed by the bot from the most recent run.
 
