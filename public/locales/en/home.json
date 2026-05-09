@@ -1,4 +1,4 @@
 {
   "title": "Welcome to the LingoPilot demo",
-  "subtitle": "Change English copy on main and LingoPilot opens a PR with pseudo-localized text and screenshots \u2014 no manual QA needed. (post-deploy validation)"
+  "subtitle": "Change English copy on main and LingoPilot opens a PR with pseudo-localized text and screenshots \u2014 no manual QA needed. (flow trigger)"
 }
