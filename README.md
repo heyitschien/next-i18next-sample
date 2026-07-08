@@ -39,6 +39,21 @@ This sample lets recruiters and interviewers see the workflow direction without 
 
 ---
 
+## Employer relevance
+
+| Target role | What this repo proves |
+| --- | --- |
+| Localization QA | Pseudo-loc catches UI overflow before real translation |
+| Pre-launch validation | Screenshot gate across configured routes before merge |
+| GitHub-native automation | PR-based delivery driven by `.lingopilot.yml` |
+| Product support prevention | Layout/copy issues caught before users see them |
+| Documentation for non-engineers | Reviewer checklist readable by PM or support lead |
+| Configuration discipline | Locales, namespaces, routes, and viewports in one config file |
+
+**Concrete example:** [docs/sample-bot-pr.md](./docs/sample-bot-pr.md) — source change → pseudo-loc → screenshots → PR checklist → reviewer decision
+
+---
+
 ## Recruiter quick scan
 
 This project demonstrates:
@@ -50,7 +65,7 @@ This project demonstrates:
 - Clear documentation connecting a public demo to private architecture work
 - Product-minded thinking about reducing manual QA steps
 
-**Start here:** run locally (below) → switch locales in the nav → read `.lingopilot.yml`
+**Start here:** [docs/sample-bot-pr.md](./docs/sample-bot-pr.md) → run locally (below) → switch locales in the nav → read `.lingopilot.yml`
 
 ---
 
@@ -87,21 +102,13 @@ Switch between `EN`, `FR`, and `VI` using the nav buttons. The `zz-pseudo` local
 
 ---
 
-## Screenshots / video
-
-### Screenshots
+## Screenshots
 
 - Bot-committed screenshots (when automation has run) live in `screenshots/`
+- Workflow example: [docs/sample-bot-pr.md](./docs/sample-bot-pr.md)
 - Additional captures: [docs/screenshots/](./docs/screenshots/)
 
-### Walkthrough video
-
-Coming soon: short walkthrough by Chien explaining:
-
-1. What problem this solves
-2. How the workflow works
-3. What decisions were made
-4. How this connects to product support / technical support work
+**10-minute reading path:** sample-bot-pr → `.lingopilot.yml` → run locally and switch locales
 
 ---
 
