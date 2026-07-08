@@ -190,6 +190,6 @@ echo " " >> public/locales/en/home.json && git add . && git commit -m "test: tri
 ## Contact
 
 - **GitHub:** https://github.com/heyitschien
-- **LinkedIn:** https://www.linkedin.com/in/chien-escalera-duong-4ba535347/
+- **LinkedIn:** https://www.linkedin.com/in/heyitschien/
 
 For deeper context, see [docs/recruiter-notes.md](./docs/recruiter-notes.md).
